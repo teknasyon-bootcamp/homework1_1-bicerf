@@ -27,5 +27,5 @@ elseif ($age>=25 && $age<65) {
     echo "Yetişkin";
 }
 else {
-    echo "Yaşlı ";
+    echo "Yaşlı";
 }
