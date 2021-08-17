@@ -1,5 +1,5 @@
 <?php
-$age = 47;
+$age = 64;
 
 /**
  * Bu ödevde age değişkeni içerisinde yer alan yaş değerinin bulunduğu
@@ -23,7 +23,7 @@ if($age <=14){
 elseif ($age>14 && $age<25) {
     echo "Genç";
 }
-elseif ($age>=25 && $age<=64) {
+elseif ($age>=25 && $age<65) {
     echo "Yetişkin";
 }
 else {
