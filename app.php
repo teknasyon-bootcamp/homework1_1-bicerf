@@ -23,7 +23,7 @@ if($age <=14){
 elseif ($age>14 && $age<25) {
     echo "Genç";
 }
-elseif ($age>=25 && $age<65) {
+elseif ($age>=25 && $age<=64) {
     echo "Yetişkin";
 }
 else {
