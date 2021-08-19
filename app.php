@@ -17,18 +17,18 @@ $age = 12;
  * 
  * İyi çalışmalar.
  */
-if($age>=0 && $age <=14){
+if($age>=0 && $age <=14){ //0-14 yaş arası 
     echo "Çocuk";
 }
-elseif ($age>14 && $age<25) {
+elseif ($age>14 && $age<25) { //15-24 yaş arası
     echo "Genç";
 }
-elseif ($age>=25 && $age<65) {
+elseif ($age>=25 && $age<65) { //25-64 yaş arası
     echo "Yetişkin";
 }
-elseif ($age>=65){
+elseif ($age>=65){ //65+ yaş
     echo "Yaşlı";
 }
-else {
+else { //negatif değerler için
     echo "Negatif değer girmeyiniz!";
 }
